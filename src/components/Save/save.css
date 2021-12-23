@@ -1,0 +1,484 @@
+.add-save {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add-save svg {
+    font-size: 3rem;
+    margin-left: 8px;
+}
+
+.add-save h1 {
+    color: #111;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.save-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 15px;
+    width: 97%;
+}
+
+.save-item {
+    border-bottom: 1px solid #cfcfcf;
+    padding: 30px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.save-detail {
+    background-color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.save-header {
+    padding: 15px;
+    background-color: #007678;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+}
+
+.save-item-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.save-item-info svg {
+    font-size: 4.5rem;
+}
+
+.item-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-name {
+    font-size: 20px;
+}
+
+.save-money-item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.save-item-change {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.save-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 15px;
+}
+
+.item-transaction {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.transaction-total-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    background-color: #ECF0F1;
+    border-radius: 12px;
+    padding: 10px 11px;
+}
+
+.transaction-total-info span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #484848;
+}
+
+.transaction-save-container {
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-bottom: 1px #d1d1d1 solid;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.transaction-save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.transaction-save svg {
+    font-size: 3rem;
+}
+
+.empty-transaction-container svg {
+    font-size: 10rem;
+}
+
+.transaction-item-name {
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 10px;
+}
+
+
+/* save */
+
+#save {
+    margin-bottom: 100px;
+}
+
+.add-save-money {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.add-save-money img {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.add-save-money h1 {
+    color: #111;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.save-money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 45%;
+    padding: 0 20px;
+    border-radius: 10px;
+    margin-right: 35px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.save-money-item-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.icon-save-money svg {
+    font-size: 3rem;
+}
+
+.save-money-item-detail h3 {
+    font-weight: 300;
+    font-size: 15px;
+    color: #333;
+    padding: 15px 0;
+}
+
+.save-money-item-detail h2 {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.item-delete img {
+    cursor: pointer;
+}
+
+.save-progressbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0;
+    gap: 10px;
+    width: 100%;
+    direction: ltr;
+}
+
+.save-save-progress-bar {
+    width: 100%;
+}
+
+.save-progressbar {
+    background-color: #eeeeee;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    transform-origin: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.save-progressbar-success {
+    top: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    transition: transform 0.2s linear;
+    transform-origin: right;
+    border-radius: 5px;
+    background-color: #007678;
+}
+
+.target-save-money {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+.save-money-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0 10px 0;
+}
+
+.withdraw-money-btn {
+    border: 1px solid #20AAEA;
+    cursor: pointer;
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 26px;
+    background-color: white;
+    font-size: 17px;
+    color: #20AAEA;
+    transition: .3s all;
+}
+
+.save-money-btn {
+    border: 1px solid #F74664;
+    color: #F74664;
+    cursor: pointer;
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 26px;
+    background-color: white;
+    font-size: 17px;
+    transition: .3s all;
+}
+
+.save-money-btn:hover {
+    background-color: #F74664;
+    color: #fff;
+}
+
+.withdraw-money-btn:hover {
+    background-color: #20AAEA;
+    color: #fff;
+}
+
+
+/* save */
+
+
+/* save-modal */
+
+.question-container {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    font-weight: 300;
+    color: #222;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.drop-shadow.show>.modal-container {
+    transform: translateY(0%);
+}
+
+.modal-save-container {
+    background-color: #fff;
+    border-radius: 16px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0 10px #000;
+    transition: .3s all;
+    transition-duration: .3s;
+    animation: downToUp .5s alternate;
+    padding: 15px;
+    transform: translateY(100%);
+}
+
+.drop-shadow.show>.modal-save-container {
+    transform: translateY(0%);
+}
+
+@keyframes downToUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.modal-title h1 {
+    color: #34495E;
+    padding: 15px 0 30px 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.save-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.save-form div {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width: 100%;
+}
+
+.save-calendar {
+    padding: 13px 0;
+}
+
+.save-calendar input {
+    color: #727272;
+    margin: 5px 8px;
+}
+
+.save-amount label,
+.save-amount input,
+.save-name input,
+.save-name label,
+.save-calendar span {
+    color: #727272;
+    font-size: 15px;
+    min-width: 85px;
+}
+
+.save-amount input {
+    padding: 20px 5px;
+}
+
+.save-name input {
+    padding: 20px 0;
+}
+
+.save-name label {
+    min-width: 80px;
+}
+
+.save-buttons-submit {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0 20px;
+}
+
+.save-buttons-submit button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 17px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    gap: 5px;
+}
+
+.save-buttons-submit button:nth-child(1) {
+    background-color: #5BC767;
+}
+
+.save-buttons-submit button:nth-child(2) {
+    background-color: #F74664;
+}
+
+
+/* save-modal */
+
+.subtitle-empty-text {
+    font-weight: 300;
+    text-align: center;
+}
+
+@media screen and (max-width:950px) {
+    #save {
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .save-container {
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .save-detail {
+        width: 95%;
+    }
+    .save-money {
+        width: 90%;
+        margin-right: 0;
+    }
+    .add-save-money {
+        margin-bottom: 30px;
+    }
+    .modal-save-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .modal-save-container {
+        width: 95%;
+    }
+    .save-buttons-submit {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

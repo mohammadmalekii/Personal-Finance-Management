@@ -1,0 +1,101 @@
+.info-transaction-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.info-transaction-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 35px 0;
+    gap: 25px;
+}
+
+.info-transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.home-total-amount {
+    display: flex;
+    gap: 4px;
+}
+
+.home-total-amount p {
+    direction: ltr;
+}
+
+.see-more-transaction button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.see-more-transaction button:hover {
+    transform: scale(1.1);
+}
+
+
+/* BOX-INFO */
+
+
+/* CHART-BOXES */
+
+.chart-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.chart-payment {
+    width: 60%;
+}
+
+.box-payment {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.chart-title {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+
+/* CHART-BOXES */
+
+@media screen and (max-width: 750px) {
+    .chart-boxes {
+        flex-direction: column;
+    }
+    .info-transaction-home {
+        width: 88%;
+    }
+    .chart-payment {
+        width: 100%;
+    }
+}
